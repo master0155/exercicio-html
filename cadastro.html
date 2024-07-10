@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cadastros</title>
+    <title> Cadastros </title>
 </head>
 <body>
     <h1>Formulário de cadastro</h1>
-    <label for="seu nome">Nome</label>
-    <input type="text" placeholder="nome" id="seu nome">
-    <br>
-    <label for="email">E-mail</label>
-    <input type="email" placeholder="e-mail" id="email">
-    <br>
-    <label for="senha">Senha</label>
-    <Input type="senha" placeholder="senha" id="senha"></Input>
-    <br>
-    <button>Cadastrar</button>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="nome" id="nome" name="nome">
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="E-mail" id="email" name="email">
+        <br>
+        <label for="senha">Senha</label>
+        <Input type="password" placeholder="senha" id="senha" name=senha>
+        <br>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Redefinir</button>
+    </form>
 </body>
 </html>
